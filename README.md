@@ -1,5 +1,5 @@
 
-# Angular 18 Básico
+# Angular 20 avançado
 
 Este repositório contém uma coleção de pequenos projetos que demonstram o uso do Angular 18. Cada pasta dentro do repositório representa um projeto que explora diferentes funcionalidades e conceitos do Angular.
 
