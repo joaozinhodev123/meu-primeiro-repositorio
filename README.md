@@ -1,5 +1,5 @@
 
-# Angular 20 avançado
+# REACT 18
 
 Este repositório contém uma coleção de pequenos projetos que demonstram o uso do Angular 18. Cada pasta dentro do repositório representa um projeto que explora diferentes funcionalidades e conceitos do Angular.
 
