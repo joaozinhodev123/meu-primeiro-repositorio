@@ -1,0 +1,25 @@
+<div>
+    <table>
+      <thead>
+      <tr>
+        <th>ID</th>
+        <th>Autor</th>
+        <th>Descrição</th>
+        <th>Alterar</th>
+        <th>Excluir</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let item of reclamacoes">
+        <td>{{ item.id }}</td>
+        <td>{{ item.autor }}</td>
+        <td>{{ item.descricao }}</td>
+        <td><button (click)="editReclamacao(item)">Edit</button></td>
+        <td><button (click)="deleteReclamacao(item.id)">Delete</button></td>
+      </tr>
+      </tbody>
+    </table>
+    <div>
+      <button (click)="addReclamacao()">Add Product</button>
+    </div>
+  </div>

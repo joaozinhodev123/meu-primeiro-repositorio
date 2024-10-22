@@ -1,0 +1,25 @@
+<div class="container">
+    <form (ngSubmit)="salvarReclamacao()">      
+        <div>
+        <label for="autorReclamacao">Autor da Reclamação</label>
+        <input
+          type="text"
+          id="autorReclamacao" [(ngModel)]="reclamacao.autor" name="autor"
+          required
+        />
+      </div>
+  
+      <div>
+        <label for="descricaoReclamacao">Descrição da Reclamação </label>
+        <input
+          type="text"
+          id="descricaoReclamacao"
+          [(ngModel)]="reclamacao.descricao"
+          name="price"
+          required
+        />
+      </div>
+  
+      <button type="submit">Adicionar</button>
+    </form>
+  </div>
